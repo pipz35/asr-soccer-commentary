@@ -1,0 +1,10 @@
+torch
+torchaudio
+transformers>=4.36.0
+accelerate
+datasets<3.0
+jiwer
+librosa
+soundfile
+evaluate
+SoccerNet
