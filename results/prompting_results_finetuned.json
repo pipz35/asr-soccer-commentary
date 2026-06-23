@@ -1,0 +1,31 @@
+{
+  "model": "finetuned",
+  "model_path": "/scratch/izar/philip/asr_project/whisper_soccer_finetuned/final",
+  "strategies": [
+    "N",
+    "PL"
+  ],
+  "n_segments": 554,
+  "results": [
+    {
+      "strategy": "N",
+      "global_wer": 13.533481093424676,
+      "entity_wer": 13.763346497001608,
+      "n_entity_segments": 491,
+      "entity_detect_full": 75.764192139738,
+      "entity_detect_partial": 80.34934497816593,
+      "n_entities": 1374,
+      "n_segments": 554
+    },
+    {
+      "strategy": "PL",
+      "global_wer": 12.170058432399758,
+      "entity_wer": 12.227585198186338,
+      "n_entity_segments": 491,
+      "entity_detect_full": 84.78893740902474,
+      "entity_detect_partial": 89.59243085880641,
+      "n_entities": 1374,
+      "n_segments": 554
+    }
+  ]
+}

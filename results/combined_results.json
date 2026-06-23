@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "name": "N_greedy",
+      "global_wer": 13.533481093424676,
+      "entity_wer": 13.763346497001608,
+      "detect_full": 75.764192139738,
+      "detect_partial": 80.34934497816593,
+      "n_entities": 1374
+    },
+    {
+      "name": "N_beam5",
+      "global_wer": 14.312579756867486,
+      "entity_wer": 14.553166593535177,
+      "detect_full": 77.65647743813683,
+      "detect_partial": 82.31441048034934,
+      "n_entities": 1374
+    },
+    {
+      "name": "PL_greedy",
+      "global_wer": 12.787964268923366,
+      "entity_wer": 12.915021208132222,
+      "detect_full": 83.84279475982532,
+      "detect_partial": 88.79184861717613,
+      "n_entities": 1374
+    },
+    {
+      "name": "PL_beam5",
+      "global_wer": 11.914836456444355,
+      "entity_wer": 11.90580664033933,
+      "detect_full": 85.00727802037845,
+      "detect_partial": 89.95633187772926,
+      "n_entities": 1374
+    },
+    {
+      "name": "SF3_beam5",
+      "global_wer": 13.83571764389818,
+      "entity_wer": 14.033933011554774,
+      "detect_full": 80.85880640465794,
+      "detect_partial": 85.44395924308587,
+      "n_entities": 1374
+    },
+    {
+      "name": "PL+SF3_beam5",
+      "global_wer": 12.485727718449862,
+      "entity_wer": 12.527424308907415,
+      "detect_full": 88.28238719068413,
+      "detect_partial": 92.79475982532752,
+      "n_entities": 1374
+    }
+  ]
+}

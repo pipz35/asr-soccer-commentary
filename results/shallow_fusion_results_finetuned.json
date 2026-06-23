@@ -1,0 +1,68 @@
+{
+  "model": "finetuned",
+  "model_path": "/scratch/izar/philip/asr_project/whisper_soccer_finetuned/final",
+  "strengths": [
+    2.0,
+    5.0,
+    10.0,
+    15.0
+  ],
+  "n_segments": 554,
+  "results": [
+    {
+      "strategy": "N",
+      "bias_strength": null,
+      "global_wer": 13.533481093424676,
+      "entity_wer": 13.763346497001608,
+      "n_entity_segments": 491,
+      "entity_detect_full": 75.764192139738,
+      "entity_detect_partial": 80.34934497816593,
+      "n_entities": 1374,
+      "n_segments": 554
+    },
+    {
+      "strategy": "SF_2.0",
+      "bias_strength": 2.0,
+      "global_wer": 13.929746792934381,
+      "entity_wer": 14.13631709814246,
+      "n_entity_segments": 491,
+      "entity_detect_full": 80.49490538573508,
+      "entity_detect_partial": 85.00727802037845,
+      "n_entities": 1374,
+      "n_segments": 554
+    },
+    {
+      "strategy": "SF_5.0",
+      "bias_strength": 5.0,
+      "global_wer": 15.064812949157098,
+      "entity_wer": 15.372239286236653,
+      "n_entity_segments": 491,
+      "entity_detect_full": 80.2037845705968,
+      "entity_detect_partial": 84.6433770014556,
+      "n_entities": 1374,
+      "n_segments": 554
+    },
+    {
+      "strategy": "SF_10.0",
+      "bias_strength": 10.0,
+      "global_wer": 943.4750486936664,
+      "entity_wer": 923.687289746965,
+      "n_entity_segments": 491,
+      "entity_detect_full": 35.29839883551674,
+      "entity_detect_partial": 38.28238719068413,
+      "n_entities": 1374,
+      "n_segments": 554
+    },
+    {
+      "strategy": "SF_15.0",
+      "bias_strength": 15.0,
+      "global_wer": 1280.7710390220968,
+      "entity_wer": 1253.7297060114086,
+      "n_entity_segments": 491,
+      "entity_detect_full": 10.262008733624455,
+      "entity_detect_partial": 11.790393013100436,
+      "n_entities": 1374,
+      "n_segments": 554
+    }
+  ]
+}
