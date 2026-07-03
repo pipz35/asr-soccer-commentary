@@ -1,6 +1,6 @@
 from SoccerNet.Downloader import SoccerNetDownloader as SNdl
 mySNdl = SNdl(LocalDirectory="/scratch/izar/philip/soccernet_data")
-mySNdl.password = "s0cc3rn3t"
+mySNdl.password = "<enter password from NDA>"
 
 games = [
     "england_epl/2015-2016/2016-03-20 - 19-00 Manchester City 0 - 1 Manchester United",
